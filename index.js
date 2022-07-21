@@ -42,3 +42,12 @@ function square(number) {
 	return number * number;
 }
 console.log(square(4));
+
+// A simple function to return the weight
+function sayMyWeight( weight )
+{
+	alert('Your weight is ' + weight)
+}
+
+// calling the above method
+sayMyWeight(65)
